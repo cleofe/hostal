@@ -5,6 +5,11 @@
 p { text-shadow: black 0.1em 0.1em 0.2em }
 strong { text-shadow: white 0.1em 0.1em 0.2em }
 h2, h3 { text-shadow: black 0.1em 0.1em 0.2em }
+body	{	background: url('../images/600.jpg') no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover; } 
 
 
 

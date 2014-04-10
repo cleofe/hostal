@@ -22,6 +22,36 @@
 	#Forms
 	#Misc */
 
+/* #Socialico; Social icons font
+================================================== */
+
+@font-face {
+    font-family: "Socialico";
+    src: url("../fonts/Socialico.otf") format("opentype");
+}
+.Socialico { 
+    font-family: Socialico;
+    display: block;
+    margin: 30px 0 0;
+    font-size: 50px;
+    color: #222;
+    text-decoration: none;
+}
+@font-face {
+    font-family: "SocialicoPlus";
+    src: url("../fonts/SocialicoPlus.otf") format("opentype");
+}
+.SocialicoPlus { 
+    font-family: SocialicoPlus;
+    display: block;
+    margin: 30px 0 0;
+    font-size: 50px;
+    color: #222;
+    text-decoration: none;
+}
+
+
+
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
