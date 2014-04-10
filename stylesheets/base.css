@@ -31,10 +31,9 @@
 }
 .Socialico { 
     font-family: Socialico;
-    display: block;
+    display: inline;
     margin: 30px 0 0;
     font-size: 50px;
-    color: #222;
     text-decoration: none;
 }
 @font-face {
@@ -43,10 +42,9 @@
 }
 .SocialicoPlus { 
     font-family: SocialicoPlus;
-    display: block;
+    display: inline;
     margin: 30px 0 0;
     font-size: 50px;
-    color: #222;
     text-decoration: none;
 }
 
