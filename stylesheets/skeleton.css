@@ -130,6 +130,7 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 767px) {
+		body { font: 12px/18px "Lucida Grande", Arial, sans-serif; }
         .container { width: 300px; }
         .container .columns,
         .container .column { margin: 0; }
@@ -180,29 +181,30 @@
     /* Note: Design for a width of 480px */
 
     @media only screen and (min-width: 480px) and (max-width: 767px) {
-        .container { width: 420px; }
+        .container { width: 460px; }
         .container .columns,
         .container .column { margin: 0; }
 
         .container .one.column,
-        .container .one.columns,
-        .container .two.columns,					{ display:none; }
-        .container .three.columns,
-        .container .four.columns,
-        .container .five.columns,
-        .container .six.columns,
-        .container .seven.columns,
-        .container .eight.columns,
-        .container .nine.columns,
-        .container .ten.columns,
-        .container .eleven.columns,
-        .container .twelve.columns,
-        .container .thirteen.columns,
-        .container .fourteen.columns,
-        .container .fifteen.columns,
-        .container .sixteen.columns,
-        .container .one-third.column,
-        .container .two-thirds.column { width: 420px; }
+        .container .one.columns                     { width: 28px; }
+        .container .two.columns                     { width: 56px; }
+        .container .three.columns                   { width: 84px; }
+        .container .four.columns                    { width: 112px; }
+        .container .five.columns                    { width: 140px; }
+        .container .six.columns                     { width: 168px; }
+        .container .seven.columns                   { width: 196px; }
+        .container .eight.columns                   { width: 224px; }
+        .container .nine.columns                    { width: 252px; }
+        .container .ten.columns                     { width: 280px; }
+        .container .eleven.columns                  { width: 308px; }
+        .container .twelve.columns                  { width: 336px; }
+        .container .thirteen.columns                { width: 364px; }
+        .container .fourteen.columns                { width: 392px; }
+        .container .fifteen.columns                 { width: 420px; }
+        .container .sixteen.columns                 { width: 448px; }
+
+        .container .one-third.column                { width: 150px; }
+        .container .two-thirds.column               { width: 300px; }
     }
 
 
