@@ -21,10 +21,10 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container                         { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
-    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
-    .row                                        { margin-bottom: 20px; }
+    .container .columns                { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                               { margin-bottom: 20px; }
 
     /* Nested Column Classes */
     .column.alpha, .columns.alpha               { margin-left: 0; }
@@ -130,18 +130,25 @@
     /* Note: Design for a width of 320px */
 
     @media only screen and (max-width: 479px) {
-		li 				{ display: inline; padding: .2em .5em; }
+		body 		{ margin: 10px 0; }
+		ul, ol 		{ margin-bottom: 0px; }
+		li 			{ display: inline; padding: .2em .5em; }
+		h1 			{ font-size: 24px; line-height: 28px; margin-bottom: 7px;}
+		h2 			{ font-size: 20px; line-height: 24px; margin-bottom: 5px; }
+		h3 			{ font-size: 18px; line-height: 20px; margin-bottom: 4px; }
+		p 			{ margin: 0 0 7px 0; }
 
-        .container { width: 310px; }
+
+        .container 				{ width: 310px; }
         .container .columns,
-        .container .column { margin: 0; }
+        .container .column 		{ margin: 0; }
 
         .container .one.column,
         .container .one.columns                     { width: 19px; }
-        .container .two.columns                     { width: 202px; }
+        .container .two.columns                     { width: 256px; }
         .container .three.columns                   { width: 57px; }
         .container .four.columns                    { width: 76px; }
-        .container .five.columns                    { width: 95px; }
+        .container .five.columns                    { width: 190px; }
         .container .six.columns                     { width: 114px; }
         .container .seven.columns                   { width: 133px; }
         .container .eight.columns                   { width: 152px; }
@@ -155,7 +162,7 @@
         .container .sixteen.columns                 { width: 304px; }
 
         .container .one-third.column                { width: 101px; }
-        .container .two-thirds.column               { width: 202px; }
+        .container .two-thirds.column               { width: 256px; }
 
 
         /* Offsets */
