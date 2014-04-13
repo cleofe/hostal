@@ -86,7 +86,7 @@
 
         .container .one.column,
         .container .one.columns                     { width: 28px; }
-        .container .two.columns                     { width: 76px; }
+        .container .two.columns                     { width: 98px; }
         .container .three.columns                   { width: 124px; }
         .container .four.columns                    { width: 172px; }
         .container .five.columns                    { width: 220px; }
@@ -143,10 +143,10 @@
 
         .container .one.column,
         .container .one.columns                     { width: 28px; }
-        .container .two.columns                     { width: 84px; }
-        .container .three.columns                   { width: 84px; }
+        .container .two.columns                     { width: 98px; }
+        .container .three.columns                   { width: 106px; }
         .container .four.columns                    { width: 112px; }
-        .container .five.columns                    { width: 140px; }
+        .container .five.columns                    { width: 190px; }
         .container .six.columns                     { width: 168px; }
         .container .seven.columns                   { width: 196px; }
         .container .eight.columns                   { width: 224px; }
@@ -160,7 +160,7 @@
         .container .sixteen.columns                 { width: 448px; }
 
         .container .one-third.column                { width: 150px; }
-        .container .two-thirds.column               { width: 300px; }
+        .container .two-thirds.column               { width: 256px; }
     }
 
 
