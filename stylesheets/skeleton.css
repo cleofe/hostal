@@ -136,7 +136,7 @@
 
         .container .one.column,
         .container .one.columns,
-        .container .two.columns,
+        .container .two.columns,					{ display:none; }
         .container .three.columns,
         .container .four.columns,
         .container .five.columns,
@@ -186,7 +186,7 @@
 
         .container .one.column,
         .container .one.columns,
-        .container .two.columns,
+        .container .two.columns,					{ display:none; }
         .container .three.columns,
         .container .four.columns,
         .container .five.columns,
