@@ -86,7 +86,7 @@
 
         .container .one.column,
         .container .one.columns                     { width: 28px; }
-        .container .two.columns                     { width: 98px; }
+        .container .two.columns                     { width: 100px; }
         .container .three.columns                   { width: 124px; }
         .container .four.columns                    { width: 172px; }
         .container .five.columns                    { width: 220px; }
@@ -141,7 +141,7 @@
 
         .container .one.column,
         .container .one.columns                     { width: 28px; }
-        .container .two.columns                     { width: 98px; }
+        .container .two.columns                     { width: 100px; }
         .container .three.columns                   { width: 106px; }
         .container .four.columns                    { width: 112px; }
         .container .five.columns                    { width: 190px; }
@@ -157,8 +157,8 @@
         .container .fifteen.columns                 { width: 420px; }
         .container .sixteen.columns                 { width: 448px; }
 
-        .container .one-third.column                { width: 150px; }
-        .container .two-thirds.column               { width: 256px; }
+        .container .one-third.column                { width: 114px; }
+        .container .two-thirds.column               { width: 224px; }
     }
 
 
@@ -244,10 +244,10 @@
 
         .container .one.column,
         .container .one.columns                     { width: 14px; }
-        .container .two.columns                     { width: 210px; }
+        .container .two.columns                     { width: 190px; }
         .container .three.columns                   { width: 42px; }
         .container .four.columns                    { width: 56px; }
-        .container .five.columns                    { width: 70px; }
+        .container .five.columns                    { width: 154px; }
         .container .six.columns                     { width: 84px; }
         .container .seven.columns                   { width: 98px; }
         .container .eight.columns                   { width: 112px; }
@@ -261,7 +261,7 @@
         .container .sixteen.columns                 { width: 224px; }
 
         .container .one-third.column                { width: 75px; }
-        .container .two-thirds.column               { width: 210px; }
+        .container .two-thirds.column               { width: 190px; }
 
 
         /* Offsets */
