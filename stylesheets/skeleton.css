@@ -134,6 +134,9 @@
 		h2 			{ font-size: 20px; line-height: 24px; margin-bottom: 5px; }
 		h3 			{ font-size: 18px; line-height: 20px; margin-bottom: 4px; }
 		p 			{ margin: 0 0 7px 0; }
+		.Socialico  	{ font-size: 30px; }
+		.SocialicoPlus  { font-size: 30px; }
+
 
         .container { width: 460px; }
         .container .columns,
@@ -158,7 +161,7 @@
         .container .sixteen.columns                 { width: 448px; }
 
         .container .one-third.column                { width: 114px; }
-        .container .two-thirds.column               { width: 224px; }
+        .container .two-thirds.column               { width: 236px; }
     }
 
 
@@ -175,6 +178,8 @@
 		h2 			{ font-size: 20px; line-height: 24px; margin-bottom: 5px; }
 		h3 			{ font-size: 18px; line-height: 20px; margin-bottom: 4px; }
 		p 			{ margin: 0 0 7px 0; }
+		.Socialico  	{ font-size: 30px; }
+		.SocialicoPlus  { font-size: 30px; }
 
 
         .container 				{ width: 310px; }
@@ -236,6 +241,8 @@
 		h2 			{ font-size: 18px; line-height: 20px; margin-bottom: 4px; }
 		h3 			{ font-size: 16px; line-height: 18px; margin-bottom: 2px; }
 		p 			{ margin: 0 0 4px 0; }
+		.Socialico  	{ font-size: 20px; }
+		.SocialicoPlus  { font-size: 20px; }
 
 
         .container 				{ width: 230px; }
