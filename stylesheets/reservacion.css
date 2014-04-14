@@ -1,7 +1,7 @@
 .column, .columns   { padding: 15px; background: #544847; border-radius: 15px; opacity:0.8; }    
 .container .two.columns { background: #3b2c3b; }   
 .container .fifteen.columns   { background: #7aa38a; height: 400px; background-image:url('../images/logo264.png'); background-repeat:no-repeat; background-position:bottom left; }
-.container .two-thirds.column { height: 330px; background-repeat:no-repeat;  background-position:top right; opacity:1.0; }
+.container .two-thirds.column { height: 360px; background-repeat:no-repeat;  background-position:top right; opacity:1.0; }
 p { text-shadow: black 0.1em 0.1em 0.2em }
 strong { text-shadow: white 0.1em 0.1em 0.2em }
 h2, h3 { text-shadow: black 0.1em 0.1em 0.2em }
