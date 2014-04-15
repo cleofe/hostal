@@ -54,6 +54,19 @@
 	<link rel="icon" sizes="96x96" href="../icons/favicon-96.png">
 	<link rel="icon" href="../icons/favicon-32.png">
 
+	<!-- embedagram 
+	================================================== -->
+    <script type="text/javascript" src="../javascripts/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="../javascripts/jquery-embedagram.pack.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#slideshow').embedagram({
+                    instagram_id: 1261870297, 
+					thumb_width: 150
+                });
+        });
+    </script>
+
 </head>
 <body>
 
@@ -83,7 +96,7 @@
 					<a href="../photos/">(in english)</a>
 				</p>
 			<br><br>
-<iframe src="http://embedagram.com/e/widget/1261870297/" scrolling="no" frameborder="0" style="border:none; width:404px; height:144px; overflow:hidden;" allowTransparency="false"></iframe>
+ 				<ul id="slideshow"></ul>
 
 		</div><!-- two-thirds column -->
 
