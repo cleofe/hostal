@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /fonts/
+Disallow: /icons/
+Disallow: /images/
+Disallow: /javascripts/
+Disallow: /stylesheets/
+Disallow: /404.html
+Sitemap: http://cleofe.pe/sitemap.xml
+
+
