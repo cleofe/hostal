@@ -32,6 +32,7 @@
 	<link rel="stylesheet" href="../stylesheets/skeleton.css">
 	<link rel="stylesheet" href="../stylesheets/layout.css">
 	<link rel="stylesheet" href="../stylesheets/fotos.css">
+	<link rel="stylesheet" href="../stylesheets/diy-slideshow.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -53,103 +54,6 @@
 	<link rel="icon" sizes="96x96" href="../icons/favicon-96.png">
 	<link rel="icon" href="../icons/favicon-32.png">
 
-	<!-- A simple DIY responsive image slideshow (Mark Lee) 
-	================================================== -->
-
-<script type="text/javascript">
-(function(){
-  
-var counter = 0, // to keep track of current slide
-    $items = document.querySelectorAll('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
-    numItems = $items.length; // total number of slides
-
-// this function is what cycles the slides, showing the next or previous slide and hiding all the others
-var showCurrent = function(){
-  var itemToShow = Math.abs(counter%numItems);// uses remainder (aka modulo) operator to get the actual index of the element to show  
-  
-  // remove .show from whichever element currently has it 
-  // http://stackoverflow.com/a/16053538/2006057
-  [].forEach.call( $items, function(el){
-    el.classList.remove('show');
-  });
-  
-  // add .show to the one item that's supposed to have it
-  $items[itemToShow].classList.add('show');    
-};
-
-// add click events to prev & next buttons 
-document.querySelector('.next').addEventListener('click', function() {
-     counter++;
-     showCurrent();
-  }, false);
-
-document.querySelector('.prev').addEventListener('click', function() {
-     counter--;
-     showCurrent();
-  }, false);
-  
-})();  
-</script>
-
-
-<style>
-	.diy-slideshow{
-	position: relative;
-	display: block;
-	overflow: hidden;
-	}
-	figure{
-	position: absolute;
-	opacity: 0;
-	transition: 1s opacity;
-	}
-	figcaption{
-	position: absolute;
-	font-family: sans-serif;
-	font-size: .8em;
-	bottom: .75em;
-	right: .35em;
-	padding: .25em;
-	color: #fff;
-	background: rgba(0,0,0, .25);
-	border-radius: 2px;
-	}
-	figcaption a{
-	color: #fff;
-	}
-	figure.show{
-	opacity: 1;
-	position: static;
-	transition: 1s opacity;
-	}
-	.next, .prev{
-	color: #fff;
-	position: absolute;
-	background: rgba(0,0,0, .6);
-	top: 50%;
-	z-index: 1;
-	font-size: 2em;
-	margin-top: -.75em;
-	opacity: .3;
-	user-select: none;
-	}
-	.next:hover, .prev:hover{
-	cursor: pointer;
-	opacity: 1;
-	}
-	.next{
-	right: 0;
-	padding: 10px 5px 15px 10px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
-	}
-	.prev{
-	left: 0;
-	padding: 10px 10px 15px 5px;
-	border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
-	}
-</style>
 
 </head>
 <body>
@@ -184,18 +88,35 @@ document.querySelector('.prev').addEventListener('click', function() {
   <div class="ten columns">
 
 	<div class="diy-slideshow">
+
+		<figure class="show">
+			<img src="../images/slide/8187.jpg" width="100%" /><figcaption>"100" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
 		<figure>
-			<img src="http://distilleryimage0.s3.amazonaws.com/3f000852c27311e3afc90002c99cf50c_8.jpg" width="100%" /><figcaption>"CASA" by <a href="">cleofé</a>.</figcaption> 
+			<img src="../images/slide/8174.jpg" width="100%" /><figcaption>"200" by <a href="">cleofé</a>.</figcaption> 
 		</figure>
-	  <figure class="show">
-		<img src="http://distilleryimage6.s3.amazonaws.com/c4db698ac27311e387b50002c9dc1aa6_8.jpg" width="100%" /><figcaption>"SOLAR" by <a href="">cleofé</a>.</figcaption> 
-		</figure>
+
 		<figure>
-			<img src="http://distilleryimage2.s3.amazonaws.com/eaf2bc0ec27311e38f910002c99abc6e_8.jpg" width="100%" /><figcaption>"CUARTO" by <a href="">cleofé</a>.</figcaption> 
+			<img src="../images/slide/8562.jpg" width="100%" /><figcaption>"300" by <a href="">cleofé</a>.</figcaption> 
 		</figure>
+
+		<figure>
+			<img src="../images/slide/8191.jpg" width="100%" /><figcaption>"400" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8181.jpg" width="100%" /><figcaption>"500" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8188.jpg" width="100%" /><figcaption>"600" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
 
 	  <span class="prev">&laquo;</span>
 	  <span class="next">&raquo;</span>
+
 	</div><!-- diy-slideshow -->  
 
   </div><!-- ten columns --> 
@@ -211,5 +132,11 @@ document.querySelector('.prev').addEventListener('click', function() {
 
 <!-- End Document
 ================================================== -->
+
+	<!-- A simple DIY responsive image slideshow (Mark Lee) 
+	================================================== -->
+   <script type="text/javascript" src="../javascripts/diy-slideshow.js"></script>
+
+
 </body>
 </html>

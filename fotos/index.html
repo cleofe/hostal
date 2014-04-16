@@ -33,6 +33,7 @@
 	<link rel="stylesheet" href="../stylesheets/skeleton.css">
 	<link rel="stylesheet" href="../stylesheets/layout.css">
 	<link rel="stylesheet" href="../stylesheets/fotos.css">
+	<link rel="stylesheet" href="../stylesheets/diy-slideshow.css">
 
 	<!-- Favicons
 	================================================== -->
@@ -54,18 +55,6 @@
 	<link rel="icon" sizes="96x96" href="../icons/favicon-96.png">
 	<link rel="icon" href="../icons/favicon-32.png">
 
-	<!-- embedagram 
-	================================================== -->
-    <script type="text/javascript" src="../javascripts/jquery-1.6.1.min.js"></script>
-    <script type="text/javascript" src="../javascripts/jquery-embedagram.pack.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#slideshow').embedagram({
-                    instagram_id: 1261870297, 
-					thumb_width: 150
-                });
-        });
-    </script>
 
 </head>
 <body>
@@ -95,8 +84,41 @@
 				<p style="float:right; font-weight: bold;">
 					<a href="../photos/">(in english)</a>
 				</p>
-			<br><br>
- 				<ul id="slideshow"></ul>
+  <div class="ten columns">
+
+	<div class="diy-slideshow">
+
+		<figure class="show">
+			<img src="../images/slide/8187.jpg" width="100%" /><figcaption>"100" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8174.jpg" width="100%" /><figcaption>"200" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8562.jpg" width="100%" /><figcaption>"300" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8191.jpg" width="100%" /><figcaption>"400" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8181.jpg" width="100%" /><figcaption>"500" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+		<figure>
+			<img src="../images/slide/8188.jpg" width="100%" /><figcaption>"600" by <a href="">cleofé</a>.</figcaption> 
+		</figure>
+
+
+	  <span class="prev">&laquo;</span>
+	  <span class="next">&raquo;</span>
+
+	</div><!-- diy-slideshow -->  
+
+  </div><!-- ten columns --> 
 
 		</div><!-- two-thirds column -->
 
@@ -109,5 +131,10 @@
 
 <!-- End Document
 ================================================== -->
+
+	<!-- A simple DIY responsive image slideshow (Mark Lee) 
+	================================================== -->
+   <script type="text/javascript" src="../javascripts/diy-slideshow.js"></script>
+
 </body>
 </html>
