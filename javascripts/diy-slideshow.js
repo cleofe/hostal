@@ -34,7 +34,7 @@ document.querySelector('.prev').addEventListener('click', function() {
   window.setInterval(function(){
      counter++;
      showCurrent();
-  }, 1500);
+  }, 3000);
 
 
   
