@@ -30,6 +30,13 @@ document.querySelector('.prev').addEventListener('click', function() {
      showCurrent();
   }, false);
 
+// automatically advance the slide every x milliseconds
+  window.setInterval(function(){
+     counter++;
+     showCurrent();
+  }, 1500);
+
+
   
 })();  
 
